@@ -15,8 +15,8 @@
 var galleryController = function (title) {
     var config = {
         endpoint: "https://s3.us-east.cloud-object-storage.appdomain.cloud",
-        apiKeyId: "Xc6U42S2I6wFDZ2sgAXqknqZqk1qAK6GRfWn-yzcszjo",
-        serviceInstanceId: "crn:v1:bluemix:public:cloud-object-storage:global:a/b8e8d442933a88b81025d9779bd23971:35f0b32b-b048-4b00-9bb7-84af15f5ce96::",
+        apiKeyId: "Enter you api key here",
+        serviceInstanceId: "Put your instance id",
     };
 
 
@@ -93,7 +93,7 @@ var galleryController = function (title) {
 
 generateUrl = (key) => {
     baseUrl = "https://s3.us-east.cloud-object-storage.appdomain.cloud/";
-    bucketName = "hackathon2019/"
+    bucketName = "Put your bucket name"
 
     return baseUrl + bucketName + key;
 
